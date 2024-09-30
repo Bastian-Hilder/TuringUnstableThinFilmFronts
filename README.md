@@ -20,7 +20,7 @@ Third, a two-stage invasion process consisting of a primary invasion of the pure
 
 https://github.com/user-attachments/assets/de0ce185-bd0a-4090-85c0-451bf40f628f
 
-The videos are generated with Matlab. The code can be found in the folder "Videos" together with the additional videos.
+The videos are generated with Matlab using the code provided in "Modfront_videos.m".
 
 ### Coefficients
 
