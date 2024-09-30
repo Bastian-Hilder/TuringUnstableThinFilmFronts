@@ -10,7 +10,7 @@ TODO
 
 Here are three examples of moving pattern interfaces constructed in the article. First, an invasion of the pure conduction state by a hexagon pattern.
 
-https://github.com/user-attachments/assets/65a84200-b40a-4cb3-ae68-ba9c7a64193e
+https://github.com/user-attachments/assets/574d835a-a1c9-4035-bab8-962f9c04ddfb
 
 
 
