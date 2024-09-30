@@ -12,7 +12,13 @@ Here are three examples of moving pattern interfaces constructed in the article.
 
 https://github.com/user-attachments/assets/574d835a-a1c9-4035-bab8-962f9c04ddfb
 
+Second, an invasion of down-hexagons by up-hexagons.
 
+https://github.com/user-attachments/assets/14ee19c4-9bba-40f2-86f9-0778000d3c04
+
+Third, a two-stage invasion process consisting of a primary invasion of the pure conduction state by roll waves followed by a secondary invasion of the roll waves by a hexagon pattern.
+
+https://github.com/user-attachments/assets/de0ce185-bd0a-4090-85c0-451bf40f628f
 
 ### pde2path
 
