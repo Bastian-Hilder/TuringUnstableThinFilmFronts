@@ -1,6 +1,6 @@
 # Pattern interfaces close to a Turing instability in a two-dimensional Bénard--Marangoni model
 
-In this repository you find the supplementary code file related to the article "Pattern interfaces close to a Turing instability in a two-dimensional Bénard--Marangoni model" by Bastian Hilder and Jonas Jansen. The preprint can be found at [arXiv:???](https://arxiv.org/abs/2308.11279).
+In this repository you find the supplementary code files related to the article "Pattern interfaces close to a Turing instability in a two-dimensional Bénard--Marangoni model" by Bastian Hilder and Jonas Jansen. The preprint can be found at [arXiv:???](https://arxiv.org/abs/2308.11279).
 
 ### Abstract
 
