@@ -24,4 +24,14 @@ The videos are generated with Matlab using the code provided in "Modfront_videos
 
 ### Coefficients
 
-TODO
+The coefficients for the formal amplitude equations (and the reduced equations on the center manifolds) are calculated using the Mathematica Notebook found in the folder "Coefficient-Mathematica". The output of the notebook is also available as pdf and html there.
+
+Please also note that the notebook can be read using the Wolfram Player, which is freely available [here](https://www.wolfram.com/player/?source=nav).
+
+### Coefficient plots
+
+The plots of the coefficients are generated using Python using the files contained in the folder "Coefficients-Plots". The python scripts read in the explicit expressions provided by the Mathematica Notebook, which are also made available in "Coefficients-Plots".
+
+### Phase plane
+
+The phase plane diagrams for the heteroclinic orbits on the reduced system are also generated the streamplot-function provided by Mathematica. The corresponding Mathematica Notebooks for both the square and hexagonal lattice are available in the folder "Phase planes". There, also a pdf version of the outputs of the notebooks can be found.
