@@ -64,11 +64,6 @@ for ii in range(len(betaGrid)):
             k0[jj,ii] = np.nan
             k1[jj,ii] = np.nan
 
-
-# print(str(2*np.heaviside(-K0_fast_eval(9,0.5),0.5) + np.heaviside(-K0_fast_eval(9,0.5)-K1_fast_eval(9,0.5),0.5)))
-# print(str(2*np.heaviside(-K0_fast_eval(9,3),0.5) + np.heaviside(-K0_fast_eval(9,3)-K1_fast_eval(9,3),0.5)))
-# print(str(2*np.heaviside(-K0_fast_eval(9,5),0.5) + np.heaviside(-K0_fast_eval(9,5)-K1_fast_eval(9,5),0.5)))
-
 # plot and save results
 fig, ax = plt.subplots()
 cs_existence = ax.pcolormesh(X,Y,existence,cmap=mpl.colors.ListedColormap(['white',tumblue,tumgreen,tumivory,tumorange]))

@@ -62,11 +62,6 @@ for ii in range(len(betaGrid)):
         else:
             n[jj,ii] = np.nan
 
-
-# print(str(2*np.heaviside(-K0_fast_eval(9,0.5),0.5) + np.heaviside(-K0_fast_eval(9,0.5)-K1_fast_eval(9,0.5),0.5)))
-# print(str(2*np.heaviside(-K0_fast_eval(9,3),0.5) + np.heaviside(-K0_fast_eval(9,3)-K1_fast_eval(9,3),0.5)))
-# print(str(2*np.heaviside(-K0_fast_eval(9,5),0.5) + np.heaviside(-K0_fast_eval(9,5)-K1_fast_eval(9,5),0.5)))
-
 # plot and save results
 # coefficients: N
 fig, ax = plt.subplots()

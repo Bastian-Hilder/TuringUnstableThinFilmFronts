@@ -65,11 +65,6 @@ for ii in range(len(betaGrid)):
             existence[jj,ii] = 0
             selection[jj,ii] = -2
 
-
-# print(str(2*np.heaviside(-K0_fast_eval(9,0.5),0.5) + np.heaviside(-K0_fast_eval(9,0.5)-K1_fast_eval(9,0.5),0.5)))
-# print(str(2*np.heaviside(-K0_fast_eval(9,3),0.5) + np.heaviside(-K0_fast_eval(9,3)-K1_fast_eval(9,3),0.5)))
-# print(str(2*np.heaviside(-K0_fast_eval(9,5),0.5) + np.heaviside(-K0_fast_eval(9,5)-K1_fast_eval(9,5),0.5)))
-
 # plot and save results
 # existence
 fig, ax = plt.subplots()
