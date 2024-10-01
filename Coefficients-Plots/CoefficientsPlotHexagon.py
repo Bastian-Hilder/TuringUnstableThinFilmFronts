@@ -90,7 +90,23 @@ ax.plot(x,k0n0,label=r'$K_0|_{\{N=0\}}$')
 ax.plot(x,k2n0,label=r'$K_2|_{\{N=0\}}$')
 plt.xlim(0,18)
 plt.xlabel('g')
-plt.title(r'Coefficients on $\{N=0\}$')
+# plt.title(r'Coefficients on $\{N=0\}$')
 plt.legend()
+
+# Move left y-axis and bottom x-axis to centre, passing through (0,0)
+ax.spines['left'].set_position('zero')
+ax.spines['bottom'].set_position('zero')
+
+# Eliminate upper and right axes
+ax.spines['right'].set_color('none')
+ax.spines['top'].set_color('none')
+
+# Show ticks in the left and lower axes only
+ax.xaxis.set_ticks_position('bottom')
+ax.yaxis.set_ticks_position('left')
+
+# remove tick at x = 0
+xticks = ax.xaxis.get_major_ticks()
+xticks[0].label1.set_visible(False)
 
 plt.savefig("Coeffs-on-Nzero.png",dpi=500)
