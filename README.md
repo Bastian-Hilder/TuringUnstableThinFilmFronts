@@ -10,17 +10,17 @@ TODO
 
 Here are three examples of moving pattern interfaces constructed in the article. First, an invasion of the pure conduction state by a hexagon pattern.
 
-https://github.com/user-attachments/assets/574d835a-a1c9-4035-bab8-962f9c04ddfb
+https://github.com/user-attachments/assets/6b7c4264-52ee-4328-9e12-e7b753f2ac8e
 
 Second, an invasion of down-hexagons by up-hexagons.
 
-https://github.com/user-attachments/assets/14ee19c4-9bba-40f2-86f9-0778000d3c04
+https://github.com/user-attachments/assets/8d0aef92-c6e7-47c2-bd6f-268478be127a
 
 Third, a two-stage invasion process consisting of a primary invasion of the pure conduction state by roll waves followed by a secondary invasion of the roll waves by a hexagon pattern.
 
-https://github.com/user-attachments/assets/de0ce185-bd0a-4090-85c0-451bf40f628f
+https://github.com/user-attachments/assets/22c11ca5-411e-451a-810e-c1a4782e5c01
 
-The videos are generated with Matlab using the code provided in "Modfront_videos.m".
+The videos are generated with Matlab using the code provided in the folder "videos". There, also the (compressed) videos displayed above can be found.
 
 ### Coefficients
 
