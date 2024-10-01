@@ -10,10 +10,6 @@ TODO
 
 Here are three examples of moving pattern interfaces constructed in the article. First, an invasion of the pure conduction state by a hexagon pattern.
 
-<video width="1280" height="256" controls poster="https://github.com/Bastian-Hilder/TuringUnstableThinFilmFronts/tree/5b8f1ae08583c4e5db5304f2c7c652eabdf551f8/videos/thumbnail.jpg"> 
-<source src="videos/video.mp4" type="video/mp4"> Your browser does not support the video tag. 
-</video>
-
 https://github.com/user-attachments/assets/574d835a-a1c9-4035-bab8-962f9c04ddfb
 
 Second, an invasion of down-hexagons by up-hexagons.
