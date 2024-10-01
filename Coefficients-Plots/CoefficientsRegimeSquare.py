@@ -44,6 +44,7 @@ gGrid = np.linspace(0.1,20,ng)
 X , Y = np.meshgrid(betaGrid,gGrid,indexing='xy')
 existence = np.zeros((len(gGrid),len(betaGrid)))
 selection = np.zeros((len(gGrid),len(betaGrid)))
+selectionSubcritical = np.zeros((len(gGrid),len(betaGrid)))
 k0 = np.zeros((len(gGrid),len(betaGrid)))
 k1 = np.zeros((len(gGrid),len(betaGrid)))
 
@@ -59,8 +60,10 @@ for ii in range(len(betaGrid)):
         k1[jj,ii] = K1_fast_eval(X[jj,ii],Y[jj,ii])
         if MmMinusMo(X[jj,ii],Y[jj,ii]) >= 0:
             existence[jj,ii] = np.heaviside(-k0[jj,ii],0) + 2*np.heaviside(-k0[jj,ii]-k1[jj,ii],0) + 1
-            # selection = 1 if K1-K0 > 0, = -1 if K1-K0 < 0, and 0 otherwise if not both patterns exists  
+            # selection = 1 if K1-K0 > 0, = -1 if K1-K0 < 0, and 0 otherwise if not both patterns exist for M0 > 0
             selection[jj,ii] = np.sign((k1[jj,ii]-k0[jj,ii]))*2*np.heaviside((existence[jj,ii]-3.5),0)
+            # selectionSubcritical = 1 if K1-K0 > 0, = -1 if K1-K0 < 0, and 0 otherwise if noth both patterns exist for M0 < 0
+            selectionSubcritical[jj,ii] = np.sign((k1[jj,ii]-k0[jj,ii]))*np.heaviside(k1[jj,ii]+k0[jj,ii],0)*np.heaviside(k0[jj,ii],0)
         else:
             existence[jj,ii] = 0
             selection[jj,ii] = -2
@@ -77,17 +80,29 @@ plt.xlabel('β')
 plt.ylabel('g')
 plt.savefig("ExistenceSquareLattice.png",dpi=500)
 
-# selection
+# selection supercritical (M0 > 0)
 fig, ax = plt.subplots()
 cs_selection = ax.pcolormesh(X,Y,selection,cmap=mpl.colors.ListedColormap([tumgreen,tumblue,tumorange]))
 proxy = [plt.Rectangle((0, 0), 1, 1, fc=fc) for fc in [tumgreen,tumblue,tumorange]]
 plt.legend(proxy, ["rolls","no selection", "squares"])
 # plt.show()
 
-plt.title('Selection on square lattice')
+plt.title('Selection on square lattice (supercritical)')
 plt.xlabel('β')
 plt.ylabel('g')
-plt.savefig("SelectionSquareLattice.png",dpi=500)
+plt.savefig("SelectionSquareLatticeSupercrit.png",dpi=500)
+
+# selection subcritical (M0 < 0)
+fig, ax = plt.subplots()
+cs_selection = ax.pcolormesh(X,Y,selectionSubcritical,cmap=mpl.colors.ListedColormap([tumgreen,tumblue,tumorange]))
+proxy = [plt.Rectangle((0, 0), 1, 1, fc=fc) for fc in [tumgreen,tumblue,tumorange]]
+plt.legend(proxy, ["rolls","no selection", "squares"])
+# plt.show()
+
+plt.title('Selection on square lattice (subcritical)')
+plt.xlabel('β')
+plt.ylabel('g')
+plt.savefig("SelectionSquareLatticeSubcrit.png",dpi=500)
 
 # coefficients: K0
 fig, ax = plt.subplots()
