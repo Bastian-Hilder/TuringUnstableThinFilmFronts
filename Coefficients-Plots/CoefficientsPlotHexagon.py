@@ -89,7 +89,7 @@ fig, ax = plt.subplots()
 ax.plot(x,k0n0,label=r'$K_0|_{\{N=0\}}$')
 ax.plot(x,k2n0,label=r'$K_2|_{\{N=0\}}$')
 plt.xlim(0,18)
-plt.xlabel('g')
+plt.xlabel('g', loc='right')
 # plt.title(r'Coefficients on $\{N=0\}$')
 plt.legend()
 
