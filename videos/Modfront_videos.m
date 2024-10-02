@@ -370,7 +370,7 @@ end
 close(v)
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%% two stage invasion: H_{1,+} -> R -> T
+%% two stage invasion: H_{1,+} -> MM -> T
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 % calculate heteroclinic orbit
