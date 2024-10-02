@@ -1,10 +1,10 @@
-# Pattern interfaces close to a Turing instability in a two-dimensional Bénard--Marangoni model
+# Fast-moving pattern interfaces close to a Turing instability in an asymptotic model for the three-dimensional Bénard–Marangoni problem
 
-In this repository you find the supplementary code files related to the article "Pattern interfaces close to a Turing instability in a two-dimensional Bénard--Marangoni model" by Bastian Hilder and Jonas Jansen. The preprint can be found at [arXiv:???](https://arxiv.org/abs/2308.11279).
+In this repository you find the supplementary code files related to the article "Fast-moving pattern interfaces close to a Turing instability in an asymptotic model for the three-dimensional Bénard–Marangoni problem" by Bastian Hilder and Jonas Jansen. The preprint can be found at [arXiv:???](https://arxiv.org/abs/2308.11279).
 
 ### Abstract
 
-TODO
+We study the bifurcation of planar patterns and fast-moving pattern interfaces in an asymptotic long-wave model for the three-dimensional Bénard–Marangoni problem, which is close to a Turing instability. We derive the model from the full free-boundary Bénard–Marangoni problem for a thin liquid film on a heated substrate of low thermal conductivity via a lubrication approximation. This yields a quasilinear, fully coupled, mixed-order degenerate-parabolic system for the film height and temperature. As the Marangoni number $M$ increases beyond a critical value $M^*$, the pure conduction state destabilises via a Turing(–Hopf) instability. Close to this critical value, we formally derive a system of amplitude equations which govern the slow modulation dynamics of square or hexagonal patterns. Using center manifold theory, we then study the bifurcation of square and hexagonal planar patterns. Finally, we construct planar fast-moving modulating travelling front solutions that model the transition between two planar patterns. The proof uses a spatial dynamics formulation and a center manifold reduction to a finite-dimensional invariant manifold, where modulating fronts appear as heteroclinic orbits. These modulating fronts facilitate a possible mechanism for pattern formation, as previously observed in experiments.
 
 ### Videos
 
