@@ -8,7 +8,7 @@ We study the bifurcation of planar patterns and fast-moving pattern interfaces i
 
 ### Supplementary Material
 
-The Supplementary Material for the article containing the explicit expressions for the coeffients and the eigenvalues of the linearisation about the mixed modes is available [here](https://github.com/Bastian-Hilder/TuringUnstableThinFilmFronts/blob/4aee854da1a4afe367ea77802eb0ad60ea9047d2/supplement.pdf) or in the top level of the repository above.
+The Supplementary Material for the article containing the explicit expressions for the coeffients and the eigenvalues of the linearisation about the mixed modes is available [in this repository](https://github.com/Bastian-Hilder/TuringUnstableThinFilmFronts/blob/4aee854da1a4afe367ea77802eb0ad60ea9047d2/supplement.pdf).
 
 ### Videos
 
