@@ -1,6 +1,6 @@
 # Fast-moving pattern interfaces close to a Turing instability in an asymptotic model for the three-dimensional Bénard–Marangoni problem
 
-In this repository you find the supplementary code files related to the article "Fast-moving pattern interfaces close to a Turing instability in an asymptotic model for the three-dimensional Bénard–Marangoni problem" by Bastian Hilder and Jonas Jansen. The preprint can be found at [arXiv:???](https://arxiv.org/abs/??).
+In this repository you find the supplementary code files related to the article "Fast-moving pattern interfaces close to a Turing instability in an asymptotic model for the three-dimensional Bénard–Marangoni problem" by Bastian Hilder and Jonas Jansen. The preprint can be found at [arXiv:2410.02708](https://arxiv.org/abs/2410.02708).
 
 ### Abstract
 
@@ -8,7 +8,7 @@ We study the bifurcation of planar patterns and fast-moving pattern interfaces i
 
 ### Supplementary Material
 
-The Supplementary Material for the article containing the explicit expressions for the coeffients and the eigenvalues of the linearisation about the mixed modes is available [in this repository](https://github.com/Bastian-Hilder/TuringUnstableThinFilmFronts/blob/4aee854da1a4afe367ea77802eb0ad60ea9047d2/supplement.pdf).
+The Supplementary Material for the article containing the explicit expressions for the coeffients and the eigenvalues of the linearisation about the mixed modes is available [here](https://github.com/Bastian-Hilder/TuringUnstableThinFilmFronts/blob/4aee854da1a4afe367ea77802eb0ad60ea9047d2/supplement.pdf).
 
 ### Videos
 
