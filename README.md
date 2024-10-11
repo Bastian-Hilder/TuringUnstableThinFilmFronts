@@ -14,7 +14,7 @@ The Supplementary Material for the article containing the explicit expressions f
 
 Here are three examples of moving pattern interfaces constructed in the article. First, an invasion of the pure conduction state by a hexagon pattern.
 
-[![Videotitel](https://img.youtube.com/vi/i0xGN3Wy6gs/0.jpg)](https://www.youtube.com/watch?v=i0xGN3Wy6gs)
+[![Videotitel](https://github.com/Bastian-Hilder/TuringUnstableThinFilmFronts/blob/5409b90a7e84a7db7ed597b94de9a45d9700d70b/pictures/Modfront-H-to-T.jpg)](https://www.youtube.com/watch?v=i0xGN3Wy6gs)
 
 Second, an invasion of down-hexagons by up-hexagons.
 
