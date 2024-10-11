@@ -14,15 +14,15 @@ The Supplementary Material for the article containing the explicit expressions f
 
 Here are three examples of moving pattern interfaces constructed in the article. Please note that clicking the thumbnails below will redirect you to the videos on YouTube. First, an invasion of the pure conduction state by a hexagon pattern.
 
-[![Videotitel](https://github.com/Bastian-Hilder/TuringUnstableThinFilmFronts/blob/5409b90a7e84a7db7ed597b94de9a45d9700d70b/pictures/Modfront-H-to-T.jpg)](https://www.youtube.com/watch?v=i0xGN3Wy6gs)
+[![Modfront-H-to-T](https://github.com/Bastian-Hilder/TuringUnstableThinFilmFronts/blob/5409b90a7e84a7db7ed597b94de9a45d9700d70b/pictures/Modfront-H-to-T.jpg)](https://www.youtube.com/watch?v=i0xGN3Wy6gs)
 
 Second, an invasion of down-hexagons by up-hexagons.
 
-https://github.com/user-attachments/assets/8d0aef92-c6e7-47c2-bd6f-268478be127a
+[![Modfront-up-H-to-down-H](https://github.com/Bastian-Hilder/TuringUnstableThinFilmFronts/blob/32ea84d40611dd648698a307bdb9f5180183409b/pictures/Modfront-up-H-to-down-H.jpg)](https://www.youtube.com/watch?v=_b2uqaCqw2M)
 
 Third, a two-stage invasion process consisting of a primary invasion of the pure conduction state by roll waves followed by a secondary invasion of the roll waves by a hexagon pattern.
 
-https://github.com/user-attachments/assets/22c11ca5-411e-451a-810e-c1a4782e5c01
+[![Modfront-H-to-R-to-T](https://github.com/Bastian-Hilder/TuringUnstableThinFilmFronts/blob/32ea84d40611dd648698a307bdb9f5180183409b/pictures/Modfront-H-to-R-to-T.jpg)](https://www.youtube.com/watch?v=il-8Szh2VOk)
 
 The videos are generated with Matlab using the code provided in the folder "videos". The (compressed) videos displayed above can also be found there.
 
