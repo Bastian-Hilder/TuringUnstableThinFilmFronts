@@ -24,13 +24,13 @@ Third, a two-stage invasion process consisting of a primary invasion of the pure
 
 [![Modfront-H-to-R-to-T](https://github.com/Bastian-Hilder/TuringUnstableThinFilmFronts/blob/32ea84d40611dd648698a307bdb9f5180183409b/pictures/Modfront-H-to-R-to-T.jpg)](https://www.youtube.com/watch?v=il-8Szh2VOk)
 
-The videos are generated with Matlab using the code provided in the folder "videos". The (compressed) videos displayed above can also be found there.
+The videos are generated with Matlab using the code provided in the folder "videos". More videos are available [in this YouTube playlist](https://www.youtube.com/playlist?list=PLc-ENVP1CPzfEf60dixeT_h6C5PVBvqLB).
 
 ### Coefficients
 
 The coefficients for the formal amplitude equations (and the reduced equations on the center manifolds) are calculated using the Mathematica Notebook in the folder "Coefficient-Mathematica". The output of the notebook is also available in PDF and HTML formats.
 
-Please note that the notebook can be read using the Wolfram Player, which is freely available [here](https://www.wolfram.com/player/?source=nav).
+Please note that the notebook can be read using the Wolfram Player, which is freely available [on the Wolfram website](https://www.wolfram.com/player/?source=nav).
 
 ### Coefficient plots
 
