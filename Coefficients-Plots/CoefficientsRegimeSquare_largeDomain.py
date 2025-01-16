@@ -79,7 +79,8 @@ plt.savefig("ExistenceSquareLatticeLargeDomain.png",dpi=500)
 # coefficients: K0
 fig, ax = plt.subplots()
 densityK0 = ax.pcolormesh(X,Y,k0,cmap='jet')
-ax.contour(X,Y,k0,[0],colors='w',linestyles='dashed')
+# ax.contour(X,Y,k0,[0],colors='w',linestyles='dashed')
+ax.contour(X,Y,k0,[0],colors='w')
 fig.colorbar(densityK0)
 
 plt.title(r'$K_0$')
@@ -90,7 +91,8 @@ plt.savefig("DensityMapK0LargeDomain.png",dpi=500)
 # coefficients: K1
 fig, ax = plt.subplots()
 densityK1 = ax.pcolormesh(X,Y,k1,cmap='jet')
-ax.contour(X,Y,k1,[0],colors='w',linestyles='dashed')
+# ax.contour(X,Y,k1,[0],colors='w',linestyles='dashed')
+ax.contour(X,Y,k1,[0],colors='w')
 fig.colorbar(densityK1)
 
 plt.title(r'$K_1$')

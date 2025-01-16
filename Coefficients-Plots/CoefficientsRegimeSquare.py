@@ -87,7 +87,7 @@ proxy = [plt.Rectangle((0, 0), 1, 1, fc=fc) for fc in [tumgreen,tumblue,tumorang
 plt.legend(proxy, ["rolls","no selection", "squares"])
 # plt.show()
 
-plt.title('Selection on square lattice (supercritical)')
+plt.title(r'Selection on square lattice ($M_0 > 0$)')
 plt.xlabel('β')
 plt.ylabel('g')
 plt.savefig("SelectionSquareLatticeSupercrit.png",dpi=500)
@@ -99,7 +99,7 @@ proxy = [plt.Rectangle((0, 0), 1, 1, fc=fc) for fc in [tumgreen,tumblue,tumorang
 plt.legend(proxy, ["rolls","no selection", "squares"])
 # plt.show()
 
-plt.title('Selection on square lattice (subcritical)')
+plt.title(r'Selection on square lattice ($M_0 < 0$)')
 plt.xlabel('β')
 plt.ylabel('g')
 plt.savefig("SelectionSquareLatticeSubcrit.png",dpi=500)
@@ -107,7 +107,8 @@ plt.savefig("SelectionSquareLatticeSubcrit.png",dpi=500)
 # coefficients: K0
 fig, ax = plt.subplots()
 densityK0 = ax.pcolormesh(X,Y,k0,cmap='jet')
-ax.contour(X,Y,k0,[0],colors='w',linestyles='dashed')
+# ax.contour(X,Y,k0,[0],colors='w',linestyles='dashed')
+ax.contour(X,Y,k0,[0],colors='w')
 fig.colorbar(densityK0)
 
 plt.title(r'$K_0$')
@@ -118,7 +119,8 @@ plt.savefig("DensityMapK0.png",dpi=500)
 # coefficients: K1
 fig, ax = plt.subplots()
 densityK1 = ax.pcolormesh(X,Y,k1,cmap='jet')
-ax.contour(X,Y,k1,[0],colors='w',linestyles='dashed')
+# ax.contour(X,Y,k1,[0],colors='w',linestyles='dashed')
+ax.contour(X,Y,k1,[0],colors='w')
 fig.colorbar(densityK1)
 
 plt.title(r'$K_1$')

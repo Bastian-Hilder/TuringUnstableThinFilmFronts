@@ -66,7 +66,8 @@ for ii in range(len(betaGrid)):
 # coefficients: N
 fig, ax = plt.subplots()
 densityN = ax.pcolormesh(X,Y,n,cmap='jet')
-ax.contour(X,Y,n,[0],colors='w',linestyles='dashed')
+# ax.contour(X,Y,n,[0],colors='w',linestyles='dashed')
+ax.contour(X,Y,n,[0],colors='w')
 fig.colorbar(densityN)
 
 plt.title(r'$N$')

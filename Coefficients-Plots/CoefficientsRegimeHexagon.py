@@ -103,7 +103,8 @@ plt.savefig("DensityMapK0.png",dpi=500) """
 # coefficients: K2
 fig, ax = plt.subplots()
 densityK2 = ax.pcolormesh(X,Y,k2,cmap='jet')
-ax.contour(X,Y,k2,[0],colors='w',linestyles='dashed')
+# ax.contour(X,Y,k2,[0],colors='w',linestyles='dashed')
+ax.contour(X,Y,k2,[0],colors='w')
 fig.colorbar(densityK2)
 
 plt.title(r'$K_2$')
