@@ -80,15 +80,18 @@ plt.savefig("DensityMapN.png",dpi=500)
 x = np.linspace(0.01,17.99,500)
 k0n0 = np.zeros(len(x))
 k2n0 = np.zeros(len(x))
+sumkn0 = np.zeros(len(x))
 
 
 for ii in range(len(x)):
     k0n0[ii] = K0N0_fast_eval(x[ii])
     k2n0[ii] = K2N0_fast_eval(x[ii])
+    sumkn0[ii] = k0n0[ii] + 2*k2n0[ii]
 
 fig, ax = plt.subplots()
 ax.plot(x,k0n0,label=r'$K_0|_{\{N=0\}}$')
 ax.plot(x,k2n0,label=r'$K_2|_{\{N=0\}}$')
+ax.plot(x,sumkn0,label=r'$K_0 + 2K_2|_{\{N=0\}}$')
 plt.xlim(0,18)
 plt.xlabel('g', loc='right')
 # plt.title(r'Coefficients on $\{N=0\}$')
